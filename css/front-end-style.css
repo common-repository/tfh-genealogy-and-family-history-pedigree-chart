@@ -1,0 +1,347 @@
+/* TFH Header Section */
+
+body {
+	
+	height: auto;
+}
+#tfh_pedigree_chart {
+
+	width:			100%;
+	max-width:		1200px;
+	margin:			50px auto 25px auto;
+	height:			auto!important;
+}
+
+
+.tfh_header_section, .tfh_shortcode_section {
+
+	display:		block;
+	width:			100%;
+	max-width:		1000px;
+	min-height: 	150px;
+
+}
+
+
+.tfh_header_section {
+
+	margin-top:		50px;
+}
+
+.pedigree-chart {
+
+	margin:			0 10px 0 10px;
+
+}
+.tfh_header_section::after {
+    content:		"";
+    display:		block;
+    clear:			both;
+
+}
+
+#tfh_title {
+	
+	width:			100%;
+	max-width: 		1000px;
+
+}
+
+
+#tfh_image img {
+
+	float:			right;
+	width:			auto;
+	height:			200px;
+}
+
+/* Pedigree Chart */
+
+.tfh_chart_section {
+
+	display:		block;
+	width:			100%;
+	min-height:		500px;
+	height:			auto;
+	margin:			0 0 50px 0;
+
+}
+
+.firstGen, .secondGen, .thirdGen {
+
+	display:		block;
+	width:			33%;
+	min-height:		500px;
+	float: 			left;
+
+}
+
+.first_box {
+
+	margin-top:		225px;
+
+}
+
+.second_box {
+
+	margin-top:		87px;
+
+}
+
+.third_box {
+
+	margin-top:		160px;
+
+}
+
+.fourth_box, .fifth_box {
+
+	margin-top:		20px;
+
+}
+
+.sixth_box {
+
+	margin-top:		25px;
+
+}
+
+.seventh_box {
+
+	margin-top:		15px;
+
+}
+
+.male_box_gp {
+
+	margin-top:		40px;
+
+}
+
+.female_box_gp {
+
+	margin-top:		25px;
+
+}
+
+.box {
+
+	display:		block;
+	width:			90%;
+	max-width:		330px;
+	min-height:		100px;
+	padding:		5px;
+	border: 3px solid #ccc;
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 12px; 
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 12px; 
+  
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 12px; 
+
+    background:		#f9f9f9;
+
+}
+
+.female_box {
+
+	
+}
+
+.male_box {
+
+	
+}
+/*Tables*/
+
+table.tfh_list_boxes tr:nth-child(2n+2) {
+   background-color: #f9f9f9;
+}
+
+table.tfh_list_boxes th {
+   background-color: #CCCCCC;
+   text-align:		left
+   height:			50px;
+   font-weight:		bold;
+   text-align:		left;
+   color:			#000;
+}
+
+table.tfh_list_boxes td {
+   text-align:		left;
+   text-transform:	capitalize;
+
+}
+
+#tfh_pedigree_row{
+   height:			45px;
+}
+
+
+/* Fonts */
+
+.tfh_firstname {
+
+	font-size: 		24px;
+	font-weight:	bold;
+	line-height:	3rem;
+
+}
+
+.tfh_lastname {
+
+	font-size: 		48px;
+
+	font-weight:	bold;
+	line-height:	3rem;
+
+}
+
+.tfh_dates {
+
+	font-weight:	bold;
+
+}
+
+h3.table_list_heading{
+
+	font-weight:	bold;
+}
+ 
+
+@media screen and (max-width: 768px) {
+
+	#tfh_pedigree_chart {
+
+		    max-width: 768px;
+		    margin: 10px auto 25px auto;
+	}
+
+	#tfh_image {
+
+		text-align:				center;
+	}
+
+	#tfh_image img {
+    		float: 				none; 
+    		margin-right: 		0;
+	}
+   
+   .firstGen, .secondGen, .thirdGen {
+
+			float: 				none;
+			min-height:			100px;
+			width: 				100%;
+			height: 			auto;
+
+	}
+	
+	
+
+	.firstGen {
+
+			
+	}
+
+
+	.secondGen {
+
+			float: 				none;
+			min-height: 		150px;
+			width: 				100%;
+			margin-bottom: 		50px;
+	}
+	
+	.thirdGen {
+		
+			float: 				none;
+			min-height: 		500px;
+			width: 				100%;
+			margin-bottom: 		50px;
+			
+	}
+
+	.first_box {
+
+		  	display:			block;	
+			width: 				75%;
+			margin:				30px auto 0 auto;
+	}
+
+	.second_box, .third_box {
+
+			margin-top:			30px;
+			min-height:			200px;
+
+	}
+	
+	.second_box{
+
+			float: 				left;
+			width: 				38%;
+			
+			margin-left: 		6%;
+
+	}
+	
+	.third_box {
+
+			float: 				right;
+			width: 				38%;
+			margin-right: 		6%;
+	}
+	
+	.thirdGen_first2, .thirdGen_second2 {
+		height: 			300px;
+		min-height:			300px;
+		width: 				38%
+	}
+	
+	.thirdGen_first2 {
+		float: left;
+	}
+	
+	.thirdGen_second2 {
+		float: right;
+	}
+	
+	.fourth_box, .fifth_box, .sixth_box, .seventh_box {
+		
+			width: 					100%;		
+			min-height: 		200px;
+		
+	}
+	
+	.fourth_box {
+			margin: 			20px 5px 0 0;
+	}
+	
+	.fifth_box {
+			margin-right: 		5px;	
+	}
+	
+	.sixth_box {
+			float:				right;
+			margin: 			0;
+			padding: 			0;	
+			margin-top: 		20px;
+			padding: 			5px;
+	}
+	
+	.seventh_box {
+			float:				right;
+			margin: 			0 5px 0 0;
+			padding: 			0;
+			margin: 			20px 5px 0 0 ;
+			padding: 			5px;
+	}
+
+	#tfh_title {
+    
+    		text-align: 		center;
+	
+	}
+
+}
